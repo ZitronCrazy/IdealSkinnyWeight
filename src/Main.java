@@ -1,7 +1,10 @@
 public class Main {
+    static final double height = 158.7;
+
     public static void main(String[] args) {
-        JapaneseIdolWeight.femaleJapaneseWeight(158.7);
-        KoreanIdolWeight.femaleKoreanWeight(158.7);
-        KoreanIdolMeasurement.femaleKoreanMeasurement(158.7);
+
+        System.out.println("Your specified height: " + height + " cm");
+        IdolWeight.femaleWeight(height);
+        KoreanIdolMeasurement.femaleKoreanMeasurement(height);
     }
 }
